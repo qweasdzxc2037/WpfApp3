@@ -1,0 +1,14 @@
+﻿<Window x:Class="WpfApp3.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp3"
+        mc:Ignorable="d" Height="450" Width="800" Title="4A955013 張書維">
+    <Grid>
+        <Label x:Name="label" Content="4A955013 張書維" HorizontalAlignment="Left" Margin="249,77,0,0" VerticalAlignment="Top" Height="63" Width="304" FontSize="36"/>
+        <Button x:Name="button1" Content="計算成績" HorizontalAlignment="Left" Margin="159,211,0,0" VerticalAlignment="Top" Width="162" Height="73" Click="button1_Click"/>
+        <Button x:Name="button2" Content="數值計算" HorizontalAlignment="Left" Margin="482,211,0,0" VerticalAlignment="Top" Width="159" Height="73" Click="button2_Click"/>
+
+    </Grid>
+</Window>
